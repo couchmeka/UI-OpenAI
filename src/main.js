@@ -66,7 +66,7 @@ fetch(endpoint, {
 
 
 // Replace with your OpenAI API key
-const apiKey = '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';
+const apiKey = process.env.OPENAI_API_KEY;
 
 // Set the API endpoint
 const endpoint = "https://api.openai.com/v1/completions";
