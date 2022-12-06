@@ -1,0 +1,84 @@
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    display:flex;
+    align-items:"center";
+    justify-content:center;
+}
+
+
+.scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-color: dark;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(71, 35, 202);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+body {
+
+    background-color: rgb(21, 24, 29);
+}
+
+img {
+
+    max-height: 300px;
+}
+
+#chat-messages li:nth-child(odd) {
+  list-style: circle inside url("image.png");
+  
+}
+
+#chat-messages li:nth-child(even) {
+
+  list-style: circle inside url("image2.png");
+  
+}
+
+label{
+  display:flex;
+  align-items:"center";
+  justify-content:center;
+
+}
+
+textarea {
+  margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    display:flex;
+    align-items:"center";
+    justify-content:center;
+
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 100px;
+
+}
+
+form {
+  text-align: center;
+}
